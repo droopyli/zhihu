@@ -4,6 +4,7 @@ import re
 from bs4 import BeautifulSoup
 import os
 
+
 url='https://www.zhihu.com/question/24590883'                  #把你的爬的网址输入
 kv={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:41.0) Gecko/20100101 Firefox/41.0'}                               #模拟登陆，
 r=requests.get(url,headers=kv)                                 #获取网页
